@@ -3,11 +3,15 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>SheTechnt Support Platform</title>      --primary: #071a3d;
-   --primary: #071a3d;
+  <title>SheTech | Student Support Platform</title>
+
+  <style>
+    :root {
+      --primary: #071a3d;
       --secondary: #0f3d75;
       --accent: #1d4ed8;
       --soft: #f4f7fb;
+      --card: #ffffff;
       --text: #111827;
       --muted: #6b7280;
       --border: #e5e7eb;
@@ -68,7 +72,8 @@
 
     .hero {
       padding: 88px 0 72px;
-      background: linear-gradbackground: linear-gradient(135deg, #06142f 0%, #0f3d75 55%, #123f75 100%);der-bottom: 1px solid var(--border);
+      background: linear-gradient(135deg, #06142f 0%, #0f3d75 55%, #123f75 100%);
+      border-bottom: 1px solid var(--border);
     }
 
     .hero-grid {
@@ -80,22 +85,27 @@
 
     .tag {
       display: inline-block;
-      backgroundbackground: rgba(255, 255, 255, 0.12);
+      background: rgba(255, 255, 255, 0.12);
       color: #dbeafe;
-      border: 1px solid rgba(255, 255, 255, 0.25); 255, 255, 0.25);
+      border: 1px solid rgba(255, 255, 255, 0.25);
       padding: 8px 14px;
       border-radius: 999px;
       font-size: 13px;
       font-weight: 700;
-      margin-bottom: h1 {
+      margin-bottom: 18px;
+    }
+
+    h1 {
       font-size: clamp(38px, 5vw, 64px);
       line-height: 1.05;
-      color: #ffffff;: #ffffff;
+      color: #ffffff;
       letter-spacing: -0.06em;
       margin-bottom: 22px;
- .hero p {
+    }
+
+    .hero p {
       font-size: 18px;
-      color: #dbeafe;: #dbeafe;
+      color: #dbeafe;
       max-width: 680px;
       margin-bottom: 30px;
     }
@@ -117,14 +127,16 @@
       border: 1px solid transparent;
     }
 
-    .btn-primarbackground: #ffffff;
+    .btn-primary {
+      background: #ffffff;
       color: var(--primary);
-      box-shadow: 0 10px 24px rgba(2, 6, 23, 0.28); 0.28);
+      box-shadow: 0 10px 24px rgba(2, 6, 23, 0.28);
     }
 
-    .btn-secondary {background: rgba(255, 255, 255, 0.08);
+    .btn-secondary {
+      background: rgba(255, 255, 255, 0.08);
       color: #ffffff;
-      border-color: rgba(255, 255, 255, 0.35);olor: r
+      border-color: rgba(255, 255, 255, 0.35);
     }
 
     .hero-card {
@@ -335,11 +347,13 @@
     }
   </style>
 </head>
+
 <body>
   <nav>
     <div class="container nav-inner">
-      <div class="SheTechs">
-        <a href="#pr/a>
+      <div class="brand">SheTech</div>
+      <div class="nav-links">
+        <a href="#problem">Problem</a>
         <a href="#solution">Solution</a>
         <a href="#platform">Platform</a>
         <a href="#roadmap">Roadmap</a>
@@ -352,7 +366,10 @@
     <div class="container hero-grid">
       <div>
         <div class="tag">Social impact platform for female CS/ICT students</div>
-        <h1>Guiding female students from uncertainty to tech readrm that helps female Computer Science and ICT students in Cambodia asseSheTech, followp, access mentorship, practice through projects, and prepare for future technology careers.</p>
+        <h1>Guiding female students from uncertainty to tech readiness.</h1>
+        <p>
+          SheTech is a web-based support platform that helps female Computer Science and ICT students in Cambodia assess their skills, follow a clear roadmap, access mentorship, practice through projects, and prepare for future technology careers.
+        </p>
         <div class="actions">
           <a class="btn btn-primary" href="#register">Start Assessment</a>
           <a class="btn btn-secondary" href="#solution">View Solution</a>
@@ -376,7 +393,9 @@
     <div class="container problem-box">
       <div>
         <h2>Problem Statement</h2>
-        <p>Female second-year CS/ICT students in Cambodia struggle with low confidence and unclear career direction because they lack structured roadmaps, mentorship, and practical career support. As a result, they may fall behind in technical skills, lose motivation, and feel unprepared for the technology industry.</p>
+        <p>
+          Female second-year CS/ICT students in Cambodia struggle with low confidence and unclear career direction because they lack structured roadmaps, mentorship, and practical career support. As a result, they may fall behind in technical skills, lose motivation, and feel unprepared for the technology industry.
+        </p>
       </div>
       <div>
         <h2>Why It Matters</h2>
@@ -394,7 +413,9 @@
     <div class="container">
       <div class="section-title">
         <h2>Our Solution</h2>
-        <p>SheTech Roadmap brings the full student support process into one professional platform: registration, survey, skill assessment, roaSheTechcontent, mentorship, project tracking, career guidance, and feedback.</p>
+        <p>
+          SheTech brings the full student support process into one professional platform: registration, survey, skill assessment, roadmap recommendation, training content, mentorship, project tracking, career guidance, and feedback.
+        </p>
       </div>
 
       <div class="cards">
@@ -425,12 +446,36 @@
       </div>
 
       <div class="cards">
-        <div class="card"><span>A</span><h3>Registration & Survey</h3><p>Collect student background, challenges, learning needs, and career goals.</p></div>
-        <div class="card"><span>B</span><h3>Skill Assessment</h3><p>Check programming, web development, database, GitHub, English, and confidence level.</p></div>
-        <div class="card"><span>C</span><h3>Personal Roadmap</h3><p>Recommend learning paths such as beginner, web development, database, UI/UX, or career preparation.</p></div>
-        <div class="card"><span>D</span><h3>Training Modules</h3><p>Provide weekly lessons, notes, exercises, and resources inside the platform.</p></div>
-        <div class="card"><span>E</span><h3>Mentorship</h3><p>Connect students with senior students, lecturers, or women working in technology.</p></div>
-        <div class="card"><span>F</span><h3>Project Tracker</h3><p>Help students complete hands-on projects and build portfolio evidence.</p></div>
+        <div class="card">
+          <span>A</span>
+          <h3>Registration & Survey</h3>
+          <p>Collect student background, challenges, learning needs, and career goals.</p>
+        </div>
+        <div class="card">
+          <span>B</span>
+          <h3>Skill Assessment</h3>
+          <p>Check programming, web development, database, GitHub, English, and confidence level.</p>
+        </div>
+        <div class="card">
+          <span>C</span>
+          <h3>Personal Roadmap</h3>
+          <p>Recommend learning paths such as beginner, web development, database, UI/UX, or career preparation.</p>
+        </div>
+        <div class="card">
+          <span>D</span>
+          <h3>Training Modules</h3>
+          <p>Provide weekly lessons, notes, exercises, and resources inside the platform.</p>
+        </div>
+        <div class="card">
+          <span>E</span>
+          <h3>Mentorship</h3>
+          <p>Connect students with senior students, lecturers, or women working in technology.</p>
+        </div>
+        <div class="card">
+          <span>F</span>
+          <h3>Project Tracker</h3>
+          <p>Help students complete hands-on projects and build portfolio evidence.</p>
+        </div>
       </div>
     </div>
   </section>
@@ -465,6 +510,7 @@
       <form>
         <input type="text" placeholder="Full name" />
         <input type="text" placeholder="University / Institute" />
+
         <select>
           <option>Year of study</option>
           <option>Year 1</option>
@@ -472,11 +518,13 @@
           <option>Year 3</option>
           <option>Year 4</option>
         </select>
+
         <select>
           <option>Location background</option>
           <option>Phnom Penh</option>
           <option>Province / Rural area</option>
         </select>
+
         <select>
           <option>Current confidence in coding</option>
           <option>High</option>
@@ -484,6 +532,7 @@
           <option>Low</option>
           <option>Not sure</option>
         </select>
+
         <select>
           <option>Support needed most</option>
           <option>Learning roadmap</option>
@@ -491,7 +540,9 @@
           <option>Project practice</option>
           <option>Career guidance</option>
         </select>
+
         <textarea placeholder="Briefly describe your biggest challenge in CS/ICT."></textarea>
+
         <button type="button">Submit Response</button>
       </form>
     </div>
@@ -499,10 +550,10 @@
 
   <footer>
     <div class="container">
-      <p>SheTech Roadmap — Supporting female CS/ICT students in Cambodia through roadmap, mentorship, and practical learning.</p>
+      <p>SheTech — Supporting female CS/ICT students in Cambodia through roadmap, mentorship, and practical learning.</p>
     </div>
   </footer>
 
- SheTechbot widget code here before closing body -->
+  <!-- Paste your Text.com chatbot widget code here before closing body -->
 </body>
 </html>
